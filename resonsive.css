@@ -1,0 +1,90 @@
+/* ========== Media Queries for Responsiveness ========== */
+
+@media (max-width: 1024px) {
+  .third-page {
+    top: 100vh; /* Reduce the gap on smaller screens */
+    padding: 10px;
+  }
+
+  .third-headline h1 {
+    font-size: 26px; /* Smaller font size for tablets */
+  }
+
+  .third-headline h2 {
+    font-size: 12px; /* Adjust font size for tablets */
+    padding: 8px 20px; /* Adjust padding for better fit */
+  }
+
+  .purchase-btn {
+    width: 60%; /* Make button width responsive */
+    padding: 10px 15px; /* Reduce button size */
+  }
+}
+
+@media (max-width: 768px) {
+  .third-page {
+    top: 100vh; /* Further reduce gap on tablets and phones */
+    padding: 15px;
+  }
+
+  .third-headline h1 {
+    font-size: 24px; /* Smaller font size for mobile devices */
+  }
+
+  .third-headline h2 {
+    font-size: 11px; /* Reduce font size further */
+    padding: 8px 15px; /* Less padding */
+    max-width: 90vw; /* Ensure it fits within the screen */
+  }
+
+  .purchase-btn {
+    width: 70%; /* Increase button width for better mobile usability */
+    padding: 10px 20px; /* Adjust padding for comfort */
+  }
+}
+
+@media (max-width: 480px) {
+  .third-page {
+    top: 95vh; /* Reduce the gap further on small screens */
+    padding: 10px;
+  }
+
+  .third-headline h1 {
+    font-size: 22px; /* Even smaller font size for smaller screens */
+  }
+
+  .third-headline h2 {
+    font-size: 10px; /* Smaller text size */
+    padding: 8px 10px; /* Reduce padding */
+    max-width: 85vw; /* Ensure the text card doesn't overflow */
+  }
+
+  .purchase-btn {
+    width: 80%; /* Take up more space on very small screens */
+    padding: 8px 16px; /* Reduce button size */
+    font-size: 12px; /* Adjust button text size */
+  }
+}
+
+@media (max-width: 320px) {
+  .third-page {
+    top: 90vh; /* Further reduce the gap for very small screens */
+    padding: 5px;
+  }
+
+  .third-headline h1 {
+    font-size: 20px; /* Very small font size */
+  }
+
+  .third-headline h2 {
+    font-size: 9px; /* Even smaller text for readability */
+    padding: 8px 10px;
+    max-width: 80vw; /* Fit text within very small screens */
+  }
+
+  .purchase-btn {
+    width: 90%; /* Make the button very wide on small screens */
+    padding: 8px 14px; /* Small button size */
+    font-size: 10px; /* Small text size */
+  }
+}

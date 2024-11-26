@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Havenly</title>
+
+    <!-- Favicon link -->
+    <link rel="icon" href="favicon-96x96.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="property.css" />
+    <link rel="stylesheet" href="housing.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="heaven.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="logo-removebg-preview.png" alt="Logo" />
+        </a>
+      </div>
+      <div class="navigation-links">
+        <div
+          class="nav-link"
+          data-section="home"
+          onclick="navigateToSection('home')"
+        >
+          Home
+        </div>
+        <div
+          class="nav-link"
+          data-section="inspiration"
+          onclick="navigateToSection('inspiration')"
+        >
+          Inspiration
+        </div>
+        <div
+          class="nav-link"
+          data-section="area"
+          onclick="navigateToSection('area')"
+        >
+          Area
+        </div>
+        <div
+          class="nav-link"
+          data-section="family"
+          onclick="navigateToSection('family')"
+        >
+          Family & Type
+        </div>
+        <div
+          class="nav-link"
+          data-section="pricing"
+          onclick="navigateToSection('pricing')"
+        >
+          Pricing
+        </div>
+        <div
+          class="nav-link"
+          data-section="renting"
+          onclick="navigateToSection('renting')"
+        >
+          Renting
+        </div>
+        <div
+          class="nav-link"
+          data-section="about-us"
+          onclick="navigateToSection('about-us')"
+        >
+          About Us
+        </div>
+      </div>
+    </div>
+
+    <!-- Property Section -->
+    <div class="background-image"></div>
+    <div class="secondary-background">
+      <div class="property-title">Beverly Hills Mansion</div>
+      <div class="property-description">
+        Luxury Beverly Hills Home nestled in prestigious Beverly Hills, this
+        elegant home features spacious bedrooms, a gourmet kitchen, and a
+        stunning living area. Enjoy outdoor living with a pool, outdoor kitchen,
+        and lush landscaping. With a prime location near top shopping and
+        dining, this property offers the ultimate in luxury living. Ideal for
+        families, entertainers, or anyone seeking a luxurious lifestyle, this
+        home promises comfort and style at every corner.
+      </div>
+      <button class="purchase-btn" id="purchase-btn">Buy Now</button>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+      <h1>Welcome to Havenly</h1>
+      <h2>Find Your Perfect Home in Safe, Family-Friendly Neighborhoods</h2>
+    </div>
+
+    <!-- Explore Section -->
+    <div class="explore-section">
+      <h1>Discover Your Ideal Space</h1>
+      <h2>Explore Homes That Fit Your Lifestyle and Budget</h2>
+    </div>
+
+    <!-- Home Section (Text Card) -->
+    <div class="text-card" id="home">
+      <h1>Havenly</h1>
+      <h2>
+        "Find Your Perfect Home in Safe, Family-Friendly Neighborhoods. At
+        Havenly, we specialize in helping you discover homes in secure,
+        family-oriented communities..."
+      </h2>
+    </div>
+
+    <!-- Action Buttons Section -->
+    <div class="action-buttons">
+      <button class="action-btn" onclick="navigateToTour()">
+        Let's take a Tour
+      </button>
+      <button class="action-btn" onclick="navigateToContact()">
+        Contact Us
+      </button>
+      <button class="action-btn" onclick="navigateToPricing()">
+        See Pricing
+      </button>
+    </div>
+
+    <!-- Third Page (Heart of Carolina) -->
+    <div class="third-page">
+      <div class="third-headline">
+        <h1>Heart of Carolina</h1>
+        <h2>
+          This beautifully maintained 3-bedroom, 2-bathroom home is nestled in a
+          quiet neighborhood in Carolina. The property features an open-concept
+          living and dining area, perfect for entertaining, and a spacious
+          kitchen with modern appliances. The master suite includes an en-suite
+          bathroom and a walk-in closet, while two additional bedrooms offer
+          ample space for family or guests. Outside, enjoy a large backyard with
+          mature landscaping and a patio area for outdoor relaxation. With easy
+          access to local amenities, schools, and parks, this home offers both
+          comfort and convenience in a desirable location.
+        </h2>
+      </div>
+      <!-- Buy Now Button at the Bottom -->
+      <div class="buy-now-container">
+        <button class="purchase-btn" id="purchase-btn-third-page">
+          Buy Now
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
